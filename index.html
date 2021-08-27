@@ -1,51 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Math Quiz</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-
-    <html>
 <head>
-	<title>Math Quiz</title>
+	<title>Math Quizs</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+<link rel="stylesheet" type="text/css" href="game.css">
 
+<script src="game_login.js"></script>
 </head>
 <body>
-<h4 id="number1"></h4> <span id="number1"></span>
-<br>
-<h4 id="number2"></h4> <span id="number2"></span>
-<br>
+<center>
+	<h1>Game</h1>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3>Player1 log in for the Game</h3>
+		<label>User Name: </label>
+		<input type="text" id="player1_name" class="form-controle" placeholder="Player1 Name">
+	</div>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h3>Player2 log in for the Game</h3>
+		<label>User Name: </label>
+		<input type="text" id="player2_name" class="form-controle" placeholder="Player2 Name">
 
-<div class="container">
-	<center>
-		<h2 style="color: Purple;"> The Math Quiz Game!</h2>
-<h3 id="question_number"></h3>
-<h3 id="ans_number"></h3>
-<div id="output" class="col-lg-6"></div>
-
-		<br>
-		<br>
-
-		<label>Send You Number: <b style="color: red"></b></label>
-<input type="text" id="number" class="form-controle" placeholder="Please type a number ">
-
-<input type="text" id="number2" class="form-controle" placeholder="Please type a number ">
-		<br>
-<button onclick="send()" class="btn btn-danger" style="width: 30%" >Send</button>
-	</center>
-</div>
-
-<script src="main.js"></script>
-
+	</div>
+	<br>
+	<button onclick="adduser()" style="width: 30%;" class="btn btn-primary">Login</button>
+</center>
 </body>
 </html>

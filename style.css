@@ -1,11 +1,10 @@
 body
 {
-	background-color: #F06292;
+	background-color: azure;
 }
-
 	.login_div1 , .login_div2
 	{
-		background: pink;
+		background: rgb(224, 129, 233);
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
@@ -27,9 +26,9 @@ body
 }
 #output
 {
-background: pink;
+background: white;
 border-radius: 10px;
-border-top: 10px solid #F06292;
+border-top: 10px solid #ee0860;
 padding: 10px;
 float: none;
 text-align: left;
